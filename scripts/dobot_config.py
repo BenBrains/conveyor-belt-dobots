@@ -1,4 +1,4 @@
-PORT_MAP = {"loader": "/dev/ttyUSB1", "unloader": "/dev/ttyUSB0"}
+PORT_MAP = {"loader": "/dev/ttyUSB0", "unloader": "/dev/ttyUSB1"}
 
 # Custom home positions if I ever want to change it
 HOME_POSITIONS = {

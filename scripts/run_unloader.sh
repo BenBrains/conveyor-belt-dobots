@@ -1,8 +1,7 @@
 #!/bin/bash
-# Run the main script with just the unloader robot
 
 # Navigate to the project directory
-cd /os/home/baljeet/conveyor-belt-dobots
+cd /os/opt/conveyor-belt-dobots
 
 # Check if virtual environment exists and activate it
 if [ -d ".venv" ]; then
@@ -17,4 +16,4 @@ else
 fi
 
 # Run the unloader script
-python3 /os/home/baljeet/conveyor-belt-dobots/main.py --robot unloader
+python3 /os/opt/conveyor-belt-dobots/main.py --robot unloader
